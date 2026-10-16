@@ -1,13 +1,14 @@
-﻿using Raylib_cs;
+﻿using Flowline.Desktop;
+using Raylib_cs;
 
-Raylib.InitWindow(800, 600, "Flowline");
+Raylib.InitWindow(1920, 1080, "Flowline");
+
+var game = new Game();
 
 while (!Raylib.WindowShouldClose())
 {
-    Raylib.BeginDrawing();
-    Raylib.ClearBackground(Color.DarkGray);
-    Raylib.DrawText("Flowline", 320, 280, 32, Color.White);
-    Raylib.EndDrawing();
+    game.Update();
+    game.Draw();
 }
 
 Raylib.CloseWindow();
