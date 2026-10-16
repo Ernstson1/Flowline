@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Flowline.Core/Flowline.Core.csproj" />
+    <Project Path="src/Flowline.Data/Flowline.Data.csproj" />
+    <Project Path="src/Flowline.Desktop/Flowline.Desktop.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Flowline.Core.Tests/Flowline.Core.Tests.csproj" />
+  </Folder>
+</Solution>
